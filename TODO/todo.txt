@@ -1,0 +1,15 @@
+TinyHusk v2.0a
+==============
+
+3/20/2012
+---------
+
+
+3/17/2012
+---------
++ airwire MAX881R pin 7 to -UB
++ fix inverting amps into buffers
++ replace (1k + 1k) & 330R divider with (10k + 10k) & 10k
++ bridge DVDD to REF
++ check all DRV8302 joints
++ desolder radio, solder in bluetooth
