@@ -1,15 +1,23 @@
-TinyHusk v2.0a
-==============
+TODO
+====
 
 3/20/2012
 ---------
+schematic fixes:
+- MAX881R - use OUT, not NEGOUT
+- remove current sense op amps; just use a divider (9.1k & 4.7k)
+- add NC trace jumper for DVDD to REF
+- widen DRV8302 footprint
 
 
 3/17/2012
 ---------
+tinyhusk v2.0:
 + airwire MAX881R pin 7 to -UB
 + fix inverting amps into buffers
 + replace (1k + 1k) & 330R divider with (10k + 10k) & 10k
 + bridge DVDD to REF
 + check all DRV8302 joints
+
+minicob v2.0:
 + desolder radio, solder in bluetooth
