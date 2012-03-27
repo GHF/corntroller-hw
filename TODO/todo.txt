@@ -1,13 +1,18 @@
 TODO
 ====
 
+3/27/2012
+---------
++ update board docs & art
++ panelize TinyHusk
+
 3/20/2012
 ---------
 schematic fixes:
-- MAX881R - use OUT, not NEGOUT
-- remove current sense op amps; just use a divider (9.1k & 4.7k)
-- add NC trace jumper for DVDD to REF
-- widen DRV8302 footprint
++ remove MAX881R
++ remove current sense op amps; just use a divider (9.1k & 4.7k)
++ add NC trace jumper for DVDD to REF
++ widen DRV8302 footprint
 
 
 3/17/2012
