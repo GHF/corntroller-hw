@@ -3367,10 +3367,10 @@ Source: http://focus.ti.com/lit/ds/sbos201/sbos201.pdf</description>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
 <part name="C12" library="dan-rcl" deviceset="C" device="0603" value="1uF"/>
 <part name="C13" library="dan-rcl" deviceset="C" device="0805" value="22uF"/>
-<part name="R24" library="dan-rcl" deviceset="R" device="0603" value="330R"/>
-<part name="R25" library="dan-rcl" deviceset="R" device="0603" value="1K"/>
-<part name="R26" library="dan-rcl" deviceset="R" device="0603" value="330R"/>
-<part name="R27" library="dan-rcl" deviceset="R" device="0603" value="1K"/>
+<part name="R24" library="dan-rcl" deviceset="R" device="0603" value="4.7k"/>
+<part name="R25" library="dan-rcl" deviceset="R" device="0603" value="9.1k"/>
+<part name="R26" library="dan-rcl" deviceset="R" device="0603" value="4.7k"/>
+<part name="R27" library="dan-rcl" deviceset="R" device="0603" value="9.1k"/>
 <part name="AGND9" library="supply1" deviceset="AGND" device=""/>
 <part name="IC1" library="linear" deviceset="OPA4743" device="EA"/>
 <part name="SUPPLY7" library="supply1" deviceset="V-" device=""/>
