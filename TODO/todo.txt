@@ -1,9 +1,13 @@
 TODO
 ====
 
+4/16/2012
+---------
++ fix PWM input labels
+
 4/05/2012
 ---------
-- need more:
++ need more:
 	10k 0603
 	4.7uF 0603 >=10V
 	4.7k 0603

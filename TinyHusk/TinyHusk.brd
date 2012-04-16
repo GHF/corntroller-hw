@@ -138,13 +138,13 @@
 <text x="22.86" y="38.1" size="2.54" layer="22" font="vector" ratio="17" rot="MR0">C</text>
 <text x="2.54" y="48.26" size="2.54" layer="22" font="vector" ratio="17" rot="MR180">-</text>
 <text x="43.18" y="2.54" size="2.54" layer="22" font="vector" ratio="17" rot="MR180">+</text>
-<text x="7.62" y="44.45" size="1.27" layer="29" font="vector" ratio="17">03/2012</text>
-<text x="24.13" y="0.3175" size="1.778" layer="30" font="vector" ratio="17" rot="MR0">v2.1</text>
+<text x="7.62" y="44.45" size="1.27" layer="29" font="vector" ratio="17">04/2012</text>
+<text x="24.13" y="0.3175" size="1.778" layer="30" font="vector" ratio="17" rot="MR0">v2.2</text>
 <text x="2.2225" y="10.795" size="1.27" layer="22" font="vector" ratio="17" rot="MR180">A</text>
-<text x="2.2225" y="13.335" size="1.27" layer="22" font="vector" ratio="17" rot="MR180">B</text>
-<text x="2.2225" y="15.875" size="1.27" layer="22" font="vector" ratio="17" rot="MR180">C</text>
-<text x="2.2225" y="18.415" size="1.27" layer="22" font="vector" ratio="17" rot="MR180">!A</text>
-<text x="2.2225" y="20.955" size="1.27" layer="22" font="vector" ratio="17" rot="MR180">!B</text>
+<text x="2.2225" y="13.335" size="1.27" layer="22" font="vector" ratio="17" rot="MR180">!A</text>
+<text x="2.2225" y="15.875" size="1.27" layer="22" font="vector" ratio="17" rot="MR180">B</text>
+<text x="2.2225" y="18.415" size="1.27" layer="22" font="vector" ratio="17" rot="MR180">!B</text>
+<text x="2.2225" y="20.955" size="1.27" layer="22" font="vector" ratio="17" rot="MR180">C</text>
 <text x="2.2225" y="23.495" size="1.27" layer="22" font="vector" ratio="17" rot="MR180">!C</text>
 <text x="2.2225" y="26.035" size="1.27" layer="22" font="vector" ratio="17" rot="MR180">IB</text>
 <text x="2.2225" y="28.575" size="1.27" layer="22" font="vector" ratio="17" rot="MR180">IC</text>

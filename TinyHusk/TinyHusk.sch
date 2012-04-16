@@ -298,6 +298,17 @@ LETTER landscape</description>
 <text x="-1.27" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-1.905" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
+<package name="SON-5X6">
+<smd name="D" x="-0.6525" y="0" dx="4.95" dy="4.51" layer="1"/>
+<smd name="S1" x="2.7525" y="-1.98" dx="0.75" dy="0.675" layer="1"/>
+<smd name="S2" x="2.7525" y="-0.66" dx="0.75" dy="0.675" layer="1"/>
+<smd name="S3" x="2.7525" y="0.66" dx="0.75" dy="0.675" layer="1"/>
+<smd name="G" x="2.7525" y="1.98" dx="0.75" dy="0.675" layer="1"/>
+<wire x1="-3" y1="-2.45" x2="3" y2="-2.45" width="0.127" layer="51"/>
+<wire x1="3" y1="-2.45" x2="3" y2="2.45" width="0.127" layer="51"/>
+<wire x1="3" y1="2.45" x2="-3" y2="2.45" width="0.127" layer="51"/>
+<wire x1="-3" y1="2.45" x2="-3" y2="-2.45" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DRV8302">
@@ -503,16 +514,29 @@ LETTER landscape</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOSFET-N_D2PAK-7" prefix="S">
+<deviceset name="MOSFET-N" prefix="S">
+<description>Power NMOSFETs in:
+- D2PAK-7
+- 5mm x 6mm (Power56/PQFN 5x6)</description>
 <gates>
 <gate name="G$1" symbol="MOSFET-N" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="D2PAK-7">
+<device name="D2PAK7" package="D2PAK-7">
 <connects>
 <connect gate="G$1" pin="D" pad="4"/>
 <connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="2 3 5 6 7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="56" package="SON-5X6">
+<connects>
+<connect gate="G$1" pin="D" pad="D"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="S" pad="S1 S2 S3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3286,12 +3310,12 @@ Source: http://focus.ti.com/lit/ds/sbos201/sbos201.pdf</description>
 <part name="FRAME1" library="frames" deviceset="LETTER_L" device=""/>
 <part name="U1" library="xow" deviceset="DRV8302" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="S_AH" library="xow" deviceset="MOSFET-N_D2PAK-7" device="" value="D2PAK-7"/>
-<part name="S_AL" library="xow" deviceset="MOSFET-N_D2PAK-7" device="" value="D2PAK-7"/>
-<part name="S_BH" library="xow" deviceset="MOSFET-N_D2PAK-7" device="" value="D2PAK-7"/>
-<part name="S_BL" library="xow" deviceset="MOSFET-N_D2PAK-7" device="" value="D2PAK-7"/>
-<part name="S_CH" library="xow" deviceset="MOSFET-N_D2PAK-7" device="" value="D2PAK-7"/>
-<part name="S_CL" library="xow" deviceset="MOSFET-N_D2PAK-7" device="" value="D2PAK-7"/>
+<part name="S_AH" library="xow" deviceset="MOSFET-N" device="D2PAK7" value="D2PAK-7"/>
+<part name="S_AL" library="xow" deviceset="MOSFET-N" device="D2PAK7" value="D2PAK-7"/>
+<part name="S_BH" library="xow" deviceset="MOSFET-N" device="D2PAK7" value="D2PAK-7"/>
+<part name="S_BL" library="xow" deviceset="MOSFET-N" device="D2PAK7" value="D2PAK-7"/>
+<part name="S_CH" library="xow" deviceset="MOSFET-N" device="D2PAK7" value="D2PAK-7"/>
+<part name="S_CL" library="xow" deviceset="MOSFET-N" device="D2PAK7" value="D2PAK-7"/>
 <part name="C1" library="dan-rcl" deviceset="C" device="0603" value="0.1uF"/>
 <part name="C2" library="dan-rcl" deviceset="C" device="0603" value="0.1uF"/>
 <part name="C3" library="dan-rcl" deviceset="C" device="0603" value="0.1uF"/>
